@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app-container {
+  width: 800px;
+  border: 1px solid red;
+  margin: 1em auto;
+}
+
+/* ------------------------ Header ----------------------------- */
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: .5em;
+  background: #F55A5A;
+
+}
+
+.globe-image {
+  width: 24px;
+}
