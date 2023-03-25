@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-size: 1.2rem;
 }
 
 .app-container {
@@ -25,4 +26,33 @@ body {
 
 .globe-image {
   width: 24px;
+}
+
+/* ------------------------- Card ------------------------------ */
+
+.card-container {
+  width: 90%;
+  display: flex;
+  column-gap: 1em;
+  margin: 1em auto;
+}
+
+.card-image {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-location {
+  display: flex;
+  align-items: center;
+  border: 1px solid green;
+}
+
+.location-icon {
+  margin-right: .2em;
+}
+
+.card-country {
+  margin-right: .5em;
 }
