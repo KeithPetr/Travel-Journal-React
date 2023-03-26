@@ -1,5 +1,5 @@
 import React from "react";
-import globe from "./images/globe.png";
+import globe from "./images/globe-svg.svg";
 
 export default function Header() {
     return (

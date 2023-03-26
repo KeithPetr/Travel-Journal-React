@@ -5,11 +5,11 @@
 body {
   margin: 0;
   font-size: 1.2rem;
+  font-family: 'Inter', sans-serif;
 }
 
 .app-container {
   width: 800px;
-  border: 1px solid red;
   margin: 1em auto;
 }
 
@@ -21,11 +21,12 @@ body {
   align-items: center;
   column-gap: .5em;
   background: #F55A5A;
-
+  color: #fff;
+  font-size: 1.4rem;
 }
 
 .globe-image {
-  width: 24px;
+  width: 34px;
 }
 
 /* ------------------------- Card ------------------------------ */
@@ -37,16 +38,22 @@ body {
   margin: 1em auto;
 }
 
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .card-image {
   width: 200px;
   height: 300px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .card-location {
   display: flex;
   align-items: center;
-  border: 1px solid green;
 }
 
 .location-icon {
@@ -54,5 +61,23 @@ body {
 }
 
 .card-country {
+  margin: 0;
   margin-right: .5em;
+}
+
+.link {
+  color: #918E9B;
+  text-decoration: underline;
+  text-underline-position: under;
+  padding-bottom: 5px;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 2.2rem;
+  margin: .25em 0 1em;
+}
+
+.card-date {
+  font-weight: 700;
 }
