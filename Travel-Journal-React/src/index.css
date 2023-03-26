@@ -35,7 +35,13 @@ body {
   width: 90%;
   display: flex;
   column-gap: 1em;
-  margin: 1em auto;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+
+.card-container:not(:last-child) {
+  border-bottom:  1px solid #dedddd;
+  padding-bottom: 2em;
 }
 
 .card-details {
